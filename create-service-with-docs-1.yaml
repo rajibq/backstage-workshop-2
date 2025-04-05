@@ -5,6 +5,7 @@ metadata:
   description: Service with docs
   annotations:
     backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: rajibq/backstage-workshop-2
 spec:
   type: service
   lifecycle: production
