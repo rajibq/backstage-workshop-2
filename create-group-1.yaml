@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: idpadmins
+  description: IDP Admins
+spec:
+  type: business-unit
+  profile:
+    displayName: IDP Admins
+    email: idpadmins@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
